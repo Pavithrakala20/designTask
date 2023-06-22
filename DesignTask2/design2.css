@@ -56,16 +56,20 @@
   margin-top: 25px;
   color: white;
   text-align: center;
+  font-weight: 600;
+}
+.card-text {
+  font-weight: 900;
 }
 .timer {
   text-align: center;
-  padding-top: 26px;
-  height: 14%;
-  width: 18%;
+  padding-top: 23px !important;
+  height: 12% !important;
+  width: 14% !important;
   margin-top: 24px;
   border: 3px solid #eab00b;
   border-radius: 89%;
-  margin-left: 42%;
+  margin-left: 41%;
   background-color: #f8f9fa;
 }
 .second-card {
@@ -80,7 +84,6 @@
   /* width: 80% !important;
    */
   width: 80% !important;
-
 }
 .team-green {
   text-align: center;
@@ -118,30 +121,34 @@
 }
 .name-1 {
   border-left: 4px solid #11acec;
-  margin-top: 7px;
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   width: 105%;
+  height: 25px;
 }
 
 .name-2 {
   border-left: 4px solid red;
   margin-top: 7px;
 }
-.item-name3{
+.item-name3 {
   background-color: #c7eec7 !important;
 }
 .name-3 {
   border-left: 4px solid green;
-  margin-top: 5px;
   display: flex;
   justify-content: space-between;
   width: 105%;
+  height: 28px;
+  padding-top: 1px;
+  margin-top: 3px;
+  margin-bottom: 12px;
 }
-.name-3anddianne{
+.name-3anddianne {
   margin-bottom: 7px;
-} 
-.name-1andsavan{
+}
+.name-1andsavan {
   margin-bottom: 7px;
 }
 
@@ -161,6 +168,7 @@
 .truns {
   margin-left: 13px;
   margin-bottom: 0px;
+  font-weight: 500;
 }
 ul.list-group.list-group-flush {
   border-top: none !important;
@@ -175,33 +183,41 @@ li.list-group-item {
 .savan {
   padding-left: 7px;
   margin-bottom: 9px;
+  font-weight: 700;
 }
 .henry {
   padding-left: 7px;
   margin-bottom: 9px;
+  font-weight: 700;
 }
 .Dianne {
   padding-left: 7px;
   margin-bottom: 9px;
+  font-weight: 700;
 }
 .bell {
   padding-left: 7px;
   margin-bottom: 9px;
+  font-weight: 700;
 }
 .savan-1 {
   padding-left: 7px;
   margin-bottom: 9px;
+  font-weight: 700;
 }
 .coutry {
   padding-left: 7px;
   margin-bottom: 9px;
+  font-weight: 700;
 }
 svg.bi.bi-x {
   color: red;
 }
 .now {
   color: #14ca42;
+  /* color: #2ad052; */
   padding-right: 11px;
+  font-weight: bold;
 }
 .Card {
   border-radius: 10px !important;
@@ -225,7 +241,8 @@ svg.bi.bi-x {
   .timer {
     text-align: center;
     padding-top: 20px !important;
-    height: 74px !important;
+    height: 68px !important;
+    width: 19% !important;
   }
 }
 
@@ -245,9 +262,9 @@ svg.bi.bi-x {
     width: 68%;
   }
   .timer {
-    padding-top: 9px;
-    height: 51px;
-    width: 23%;
+    padding-top: 17px !important;
+    height: 65px !important;
+    width: 27% !important;
     margin-left: 94px;
     margin-bottom: 15px;
   }
@@ -258,7 +275,7 @@ svg.bi.bi-x {
 
 @media only screen and (max-width: 900px) and (min-width: 786px) {
   .timer {
-    height: 10% !important;
+    height: 9% !important;
     width: 22% !important;
     padding-top: 17px !important;
   }
@@ -266,10 +283,10 @@ svg.bi.bi-x {
 
 @media only screen and (max-width: 1000px) and (min-width: 901px) {
   .timer {
-    width: 24%;
-    height: 70px;
-    padding-top: 18px;
-    margin-left: 102px;
+       width: 22% !important;
+    height: 65px !important;
+    padding-top: 18px !important;
+    margin-left: 103px;
   }
 }
 @media only screen and (max-width: 484px) and (min-width: 320px) {
@@ -290,11 +307,12 @@ svg.bi.bi-x {
     width: 100%;
   }
   .timer {
-    width: 60%;
-    padding-top: 20px;
-    height: 65px;
-    margin-left: 113%;
+    padding-top: 13px !important;
+    height: 76px;
+    height: 54px !important;
+    margin-left: 125%;
     margin-bottom: 30px;
+    width: 50% !important;
   }
   .card.Sec-Card {
     width: 283%;
@@ -307,16 +325,23 @@ svg.bi.bi-x {
   .col-sm-6.red {
     margin-top: 13px;
   }
-  /* .card-body.Card-body {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-  }
-  .green {
-    padding-left: 24px !important;
 }
-.card.team-green {
-  margin-top: 0px;
-} */
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+  .timer {
+    height: 13% !important;
+    width: 18% !important;
+  }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1001px) {
+  .timer {
+    width: 19% !important;
+    height: 72px !important;
+    padding-top: 20px !important;
+  }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1401px) {
+  .timer {
+    /* width: 18% !important; */
+  }
 }
